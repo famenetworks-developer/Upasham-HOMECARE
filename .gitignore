@@ -1,0 +1,31 @@
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Runtime output
+.runlogs/
+*.log
+backend/uploads/
+
+# Go build and cache output
+.gocache/
+*.exe
+*.test
+coverage.out
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+
+# Local design verification captures
+local-upasham*.png
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.suo
